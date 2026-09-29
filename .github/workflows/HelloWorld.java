@@ -1,7 +1,5 @@
-echo "Starting Java program"
-
-javac HelloWorld.java
-
-echo "Running Java program"
-
-java HelloWorld
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello from Jenkins CI!");
+    }
+}
